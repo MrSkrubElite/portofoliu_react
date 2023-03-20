@@ -38,9 +38,3 @@ const Aboutme = () => {
 }
 
 export default Aboutme;
-
-
-
-
-{/* <img src={frontsvg} alt="svg" className='svg' />
-            <img src={manlaptop} alt="laptop" className='laptop' /> */}
