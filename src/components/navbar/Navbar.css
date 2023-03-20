@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* FONTS */
+@font-face {
+    font-family: genera-semibold;
+    src: url(/src/components/fonts/genera/Wahyu\ and\ Sani\ Co.\ -\ Genera\ SemiBold.ttf);
+}
+
+@font-face {
+    font-family: genera-light;
+    src: url(/src/components/fonts/genera/Wahyu\ and\ Sani\ Co.\ -\ Genera\ Alt\ Light.ttf);
+}
+
+
+.nav-container {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    padding: 1.5rem 1rem;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,.09);
+    z-index: 200;
+}
+
+.logo h1{
+    font-family: genera-semibold;
+    padding: 0 1rem;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: #2D2E32;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links h3 {
+    padding: 0 1rem;
+    font-family: genera-light;
+    cursor: pointer;
+}
+
+.nav-container h3 {
+    transition: all 0.3s;
+}
+
+.nav-container h3:hover {
+    color: #147EFB;
+    transition: all 0.3s;
+}
+
+
+
+.none {
+    display: none;
+}

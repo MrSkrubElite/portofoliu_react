@@ -1,0 +1,115 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
+
+#aboutme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 7rem 0;
+    background-color: #fff;
+}
+
+.aboutme-container {
+    max-width: 900px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+
+.aboutme-img-container {
+    height: 400px;
+    width: 400px;
+    min-width: 400px;
+    min-height: 400px;
+}
+
+.aboutme-img-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+    position: relative;
+}
+
+.aboutme-img-container img::after {
+    content: url(/src/components/imgs/frontsvg.svg);
+}
+
+
+.svg {
+    width: 10rem !important;
+    height: 10rem !important;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-animation: rotate-center 10s linear infinite both;
+	animation: rotate-center 10s linear infinite both;
+    position: absolute;
+    margin-left: 300px;
+    margin-top: 338px;
+}
+
+.laptop {
+    width: 5rem !important;
+    height: 5rem !important;
+    border-radius: 20%;
+    position: absolute;
+    margin-top: 324px;
+    margin-left: 340px;
+}
+
+@-webkit-keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  @keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg);
+    }
+  }
+  
+
+
+.aboutme-info {
+    height: 400px;
+    width: 550px;
+    min-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.aboutme-info p {
+    font-size: 18px;
+    font-family: genera-light;
+    line-height: 25px;
+}
+
+.aboutme-info h3 {
+    font-family: genera-semibold;
+    color: #147EFB;
+}
+
+.aboutme-info h1 {
+    font-size: 25px;
+    font-family: genera-semibold;
+}
+
