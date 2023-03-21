@@ -21,8 +21,11 @@ const Hero = () => {
                     <h1>Front-End React Developer <img src={wavehand} alt="wavehand"/></h1>
                     <p>Hi, I'm Alex Stefanescu. A passionate Front-end React Developer based in Constanta, Romania. 📍</p>
                     <div className="icons-container">
-                        <FontAwesomeIcon icon={faLinkedin} className="icon"/>
-                        <FontAwesomeIcon icon={faGithub} className="icon"/>
+
+                        <a href="https://www.linkedin.com/in/stefanescu99/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="icon"/></a>
+                        
+                        <a href="https://github.com/MrSkrubElite" target="_blank"><FontAwesomeIcon icon={faGithub} className="icon"/></a>
+
                     </div>
                 </div>
                 <div className="photo">

@@ -14,9 +14,12 @@ const Footer = () => {
     <footer>
         <div className="footer-container">
             <h3>Copyright © 2023. All rights are reserved</h3>
-            <div className="">
-                <FontAwesomeIcon icon={faLinkedin} className="fa" />
-                <FontAwesomeIcon icon={faGithub} className="fa" />
+            <div className='footer-links'>
+
+              <a href="https://www.linkedin.com/in/stefanescu99/" target="_blank"><FontAwesomeIcon icon={faLinkedin} className="icon"/></a>
+
+              <a href="https://github.com/MrSkrubElite" target="_blank"><FontAwesomeIcon icon={faGithub} className="icon"/></a>
+
             </div>
             
         </div>

@@ -7,6 +7,9 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { faCheckSquare, faCoffee, faArrowUpRightFromSquare } from '@fortawesome/free-solid-svg-icons'
 import carrental from "../../components/imgs/carrentalproject.png"
+import coindom from "../../components/imgs/coindom.png"
+import gymate from "../../components/imgs/gymate.png"
+import raouf from "../../components/imgs/raouf.png"
 
 library.add(fab, faCheckSquare, faCoffee)
 
@@ -39,77 +42,77 @@ const Projects = () => {
                         <h2>React</h2>
                     </div>
                     <div className="links">
-                        <a href="#"><FontAwesomeIcon icon={faGithub} className="icons"/></a>
-                        <a href="#"><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
+                        <a href="#">Code<FontAwesomeIcon icon={faGithub} className="icons"/></a>
+                        <a href="#">Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
                     </div>
                 </div>
             </div>
 
             <div className="project-box row-reverse">
                 <div className="project-img">
-                    <img src={carrental} alt="carrental" />
+                    <img src={coindom} alt="coindom" />
                 </div>
                 <div className="project-info">
                     
                     <div>
-                        <h1>CAR RENTAL 🚗</h1>
+                        <h1>COINGOD 💰</h1>
                     </div>
                     <div>
-                        <p>A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.</p>
+                        <p>Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time.</p>
                     </div>
                     
                     <div className="tags">
                         <h2>React</h2>
                     </div>
                     <div className="links">
-                        <a href="#"><FontAwesomeIcon icon={faGithub} className="icons"/></a>
-                        <a href="#"><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
+                        <a href="#">Code<FontAwesomeIcon icon={faGithub} className="icons"/></a>
+                        <a href="#">Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
                     </div>
                 </div>
             </div>
 
             <div className="project-box">
                 <div className="project-img">
-                    <img src={carrental} alt="carrental" />
+                    <img src={gymate} alt="gymate" />
                 </div>
                 <div className="project-info">
                     
                     <div>
-                        <h1>CAR RENTAL 🚗</h1>
+                        <h1>GYMATE 🏋🏻‍♂️</h1>
                     </div>
                     <div>
-                        <p>A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.</p>
+                        <p>A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals.</p>
                     </div>
                     
                     <div className="tags">
                         <h2>React</h2>
                     </div>
                     <div className="links">
-                        <a href="#"><FontAwesomeIcon icon={faGithub} className="icons"/></a>
-                        <a href="#"><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
+                        <a href="#">Code<FontAwesomeIcon icon={faGithub} className="icons"/></a>
+                        <a href="#">Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
                     </div>
                 </div>
             </div>
 
             <div className="project-box row-reverse">
                 <div className="project-img">
-                    <img src={carrental} alt="carrental" />
+                    <img src={raouf} alt="raouf" />
                 </div>
                 <div className="project-info">
                     
                     <div>
-                        <h1>CAR RENTAL 🚗</h1>
+                        <h1>RAOUF ECOMMERCE 🛒</h1>
                     </div>
                     <div>
-                        <p>A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.</p>
+                        <p>With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need.</p>
                     </div>
                     
                     <div className="tags">
                         <h2>React</h2>
                     </div>
                     <div className="links">
-                        <a href="#"><FontAwesomeIcon icon={faGithub} className="icons"/></a>
-                        <a href="#"><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
+                        <a href="#">Code<FontAwesomeIcon icon={faGithub} className="icons"/></a>
+                        <a href="#">Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
                     </div>
                 </div>
             </div>

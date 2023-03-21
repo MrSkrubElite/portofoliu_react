@@ -19,7 +19,13 @@ footer {
     cursor: pointer;
 }
 
+
 .fa:hover {
     color: #147EFB;
     transition: all 0.3s;
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
 }
