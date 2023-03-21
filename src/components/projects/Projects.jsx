@@ -39,8 +39,77 @@ const Projects = () => {
                         <h2>React</h2>
                     </div>
                     <div className="links">
-                        <a href="#"><FontAwesomeIcon icon={faGithub} className="icon"/></a>
-                        <a href="#"><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icon"/></a>
+                        <a href="#"><FontAwesomeIcon icon={faGithub} className="icons"/></a>
+                        <a href="#"><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="project-box row-reverse">
+                <div className="project-img">
+                    <img src={carrental} alt="carrental" />
+                </div>
+                <div className="project-info">
+                    
+                    <div>
+                        <h1>CAR RENTAL 🚗</h1>
+                    </div>
+                    <div>
+                        <p>A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.</p>
+                    </div>
+                    
+                    <div className="tags">
+                        <h2>React</h2>
+                    </div>
+                    <div className="links">
+                        <a href="#"><FontAwesomeIcon icon={faGithub} className="icons"/></a>
+                        <a href="#"><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="project-box">
+                <div className="project-img">
+                    <img src={carrental} alt="carrental" />
+                </div>
+                <div className="project-info">
+                    
+                    <div>
+                        <h1>CAR RENTAL 🚗</h1>
+                    </div>
+                    <div>
+                        <p>A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.</p>
+                    </div>
+                    
+                    <div className="tags">
+                        <h2>React</h2>
+                    </div>
+                    <div className="links">
+                        <a href="#"><FontAwesomeIcon icon={faGithub} className="icons"/></a>
+                        <a href="#"><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
+                    </div>
+                </div>
+            </div>
+
+            <div className="project-box row-reverse">
+                <div className="project-img">
+                    <img src={carrental} alt="carrental" />
+                </div>
+                <div className="project-info">
+                    
+                    <div>
+                        <h1>CAR RENTAL 🚗</h1>
+                    </div>
+                    <div>
+                        <p>A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.</p>
+                    </div>
+                    
+                    <div className="tags">
+                        <h2>React</h2>
+                    </div>
+                    <div className="links">
+                        <a href="#"><FontAwesomeIcon icon={faGithub} className="icons"/></a>
+                        <a href="#"><FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
                     </div>
                 </div>
             </div>

@@ -3,6 +3,7 @@
     max-width: 900px;
     height: 100%;
     margin: 0 auto;
+    padding: 5rem 0;
 }
 
 .project-box {
@@ -16,6 +17,7 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
     border-radius: 20px;
     background-color: #fff;
+    margin: 3.5rem 0;
 }
 
 #projects {
@@ -44,9 +46,9 @@
     z-index: 1
 }
 
-.project-img img:hover {
+/* .project-img img:hover {
     animation: transform 3s ease-in-out 0s;
-}
+} */
 
 @keyframes transform {
     0% {
@@ -75,3 +77,29 @@
     line-height: 30px;
 }
 
+.icons {
+    padding: 0 1rem;
+    font-size: 2rem;
+    transition: all 0.3s;
+}
+
+.icons:hover {
+    color: #147EFB;
+    transition: all 0.3s;
+}
+
+.title {
+    line-height: 50px;
+    font-family: genera-semibold;
+}
+
+.title h3 {
+    color: #147EFB;
+}
+
+.row-reverse {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}
