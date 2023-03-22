@@ -37,11 +37,17 @@ const Hero = () => {
             
             <div className="hero2">
                 <div className="hero2-icons">
-                    <h3>Tech Stack |</h3>
-                    <img src={html5} alt="html5" />
-                    <img src={css3} alt="css3" />
-                    <img src={js} alt="js" />
-                    <img src={reacticon} alt="reacticon" />
+                    <div>
+                        <h3>Tech Stack</h3>
+                    </div>
+                    <span className='bar no'>|</span>
+                    <div className="icons-img-container">
+                        <img src={html5} alt="html5" />
+                        <img src={css3} alt="css3" />
+                        <img src={js} alt="js" />
+                        <img src={reacticon} alt="reacticon" />
+                    </div>
+                    
                 </div>
             </div>
         </div>

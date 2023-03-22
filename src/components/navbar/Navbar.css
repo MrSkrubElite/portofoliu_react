@@ -80,7 +80,7 @@ a {
 }
 
 
-#menu-container {
+.menu-container {
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -94,7 +94,7 @@ a {
     transition: all 0.3s;
 }
 
-#menu-container a {
+.menu-container a {
     padding: 1.5rem 0;
 }
 
