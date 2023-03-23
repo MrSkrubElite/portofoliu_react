@@ -78,3 +78,12 @@
 .mail {
     padding-left: 2.4rem;
 }
+
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 950px) {
+    .container-contactme {
+        max-width: 700px;
+    }
+}

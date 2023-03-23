@@ -113,3 +113,58 @@
     font-family: genera-semibold;
 }
 
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 950px) {
+    #aboutme {
+        padding: 4rem 0;
+    }
+
+    .aboutme-info {
+        text-align: center;
+    }
+
+    .aboutme-info h3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    .aboutme-container {
+        max-width: 900px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .aboutme-img-container {
+        position: relative;
+    }
+    
+    .laptop {
+        width: 5rem !important;
+        height: 5rem !important;
+        border-radius: 20%;
+        position: absolute;
+        margin-bottom: 117px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .svg {
+        width: 10rem !important;
+        height: 10rem !important;
+        background-color: #fff;
+        border-radius: 50%;
+        animation: rotate-center 10s linear infinite both;
+        position: absolute;
+        margin-bottom: 105px;
+        margin-left: 0;
+        margin-top: 0;
+    }
+}
