@@ -42,7 +42,7 @@ footer {
 
 /* Mobile */
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 700px) {
     .footer-container {
         max-width: 350px;
     }
