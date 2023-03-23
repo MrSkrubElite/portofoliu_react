@@ -51,11 +51,12 @@
 
 .cc h4 {
     font-family: genera-semibold;
-    font-size: 1rem;
+    font-size: 20px;
 }
 
 .cc p {
     font-family: genera-light;
+    font-size: 20px;
 }
 
 .map {
@@ -85,5 +86,44 @@
 @media screen and (max-width: 950px) {
     .container-contactme {
         max-width: 700px;
+    }
+}
+
+/* Mobile */
+
+@media screen and (max-width: 450px) {
+    #contactme {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        padding: 5rem 0;
+    }
+
+    .container-contactme {
+        max-width: 350px;
+    }
+
+    .links-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding: 2rem 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .location {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+    }
+
+    .mail {
+        padding-top: 2rem;
+        padding-left: 0;
     }
 }

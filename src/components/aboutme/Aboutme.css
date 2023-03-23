@@ -168,3 +168,43 @@
         margin-top: 0;
     }
 }
+
+
+/* Mobile */
+
+@media screen and (max-width: 450px) {
+    .aboutme-container {
+        max-width: 350px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .aboutme-img-container {
+        width: 100%;
+        padding: 1.2rem;
+        min-width: 0;
+    }
+
+    .laptop {
+        margin-bottom: 109px;
+        margin-top: 0;
+        margin-left: 0;
+    }
+
+    .aboutme-info {
+        width: 100%;
+        min-width: 0;
+    }
+
+    .aboutme-info h3 {
+        padding-bottom: 1rem;
+    }
+
+    .aboutme-info h1 {
+        padding-bottom: 1rem;
+    }
+}

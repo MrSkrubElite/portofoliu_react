@@ -116,3 +116,27 @@ a {
         display: none;
     }
 }
+
+/* Mobile */
+
+@media screen and (max-width: 450px) {
+    .nav-container {
+        display: flex;
+        position: fixed;
+        width: 100%;
+        height: auto;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;
+        padding: 1.5rem 1rem;
+        left: 0;
+        top: 0;
+        background-color: #fff;
+        box-shadow: 0 0 10px rgba(0,0,0,.09);
+        z-index: 200;
+    }
+
+    .menu-container {
+        top: 0;
+    }
+}
