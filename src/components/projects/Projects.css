@@ -66,6 +66,12 @@
     border-radius: 6px;
 }
 
+.tags-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .project-info {
     width: 100%;
     height: 400px;
@@ -109,6 +115,7 @@
     align-items: center;
     flex-direction: row-reverse;
 }
+
 
 
 /* MEDIA QUERIES */

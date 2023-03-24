@@ -7,6 +7,8 @@ import html5 from "../../components/imgs/html5.png";
 import css3 from "../../components/imgs/css3.png";
 import reacticon from "../../components/imgs/reacticon.png";
 import js from "../../components/imgs/js.png";
+import tailwind from "../../components/imgs/tailwind.png";
+import scss from "../../components/imgs/scss.png";
 
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -46,6 +48,8 @@ const Hero = () => {
                         <img src={css3} alt="css3" />
                         <img src={js} alt="js" />
                         <img src={reacticon} alt="reacticon" />
+                        <img src={tailwind} alt="tailwind" />
+                        <img src={scss} alt="scss" />
                     </div>
                     
                 </div>

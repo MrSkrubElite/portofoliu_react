@@ -32,17 +32,23 @@ const Projects = () => {
                 <div className="project-info">
                     
                     <div>
-                        <h1>CAR RENTAL 🚗</h1>
+                        <h1>RENTACAR 🚗</h1>
                     </div>
                     <div>
                         <p>A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars.</p>
                     </div>
-                    
-                    <div className="tags">
-                        <h2>React</h2>
+
+                    <div className="tags-container">
+                        <div className="tags">
+                            <h2>React</h2>
+                        </div>
+                        <div className="tags">
+                            <h2>SCSS</h2>
+                        </div>
                     </div>
+                    
                     <div className="links">
-                        <a href="#">Code<FontAwesomeIcon icon={faGithub} className="icons"/></a>
+                        <a href="https://github.com/MrSkrubElite/Car-Rental-Project" target="_blank">Code<FontAwesomeIcon icon={faGithub} className="icons"/></a>
                         <a href="#">Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
                     </div>
                 </div>
@@ -61,11 +67,17 @@ const Projects = () => {
                         <p>Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time.</p>
                     </div>
                     
-                    <div className="tags">
-                        <h2>React</h2>
+                    <div className="tags-container">
+                        <div className="tags">
+                            <h2>React</h2>
+                        </div>
+                        <div className="tags">
+                            <h2>SCSS</h2>
+                        </div>
                     </div>
+
                     <div className="links">
-                        <a href="#">Code<FontAwesomeIcon icon={faGithub} className="icons"/></a>
+                        <a href="https://github.com/MrSkrubElite/CoinGod" target="_blank">Code<FontAwesomeIcon icon={faGithub} className="icons"/></a>
                         <a href="#">Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
                     </div>
                 </div>
@@ -84,11 +96,17 @@ const Projects = () => {
                         <p>A gym website is a comprehensive resource for fitness information, class schedules, membership options, and tools to help users achieve their fitness goals.</p>
                     </div>
                     
-                    <div className="tags">
-                        <h2>React</h2>
+                    <div className="tags-container">
+                        <div className="tags">
+                            <h2>React</h2>
+                        </div>
+                        <div className="tags">
+                            <h2>Tailwind CSS</h2>
+                        </div>
                     </div>
+
                     <div className="links">
-                        <a href="#">Code<FontAwesomeIcon icon={faGithub} className="icons"/></a>
+                        <a href="https://github.com/MrSkrubElite/GymBro" target="_blank">Code<FontAwesomeIcon icon={faGithub} className="icons"/></a>
                         <a href="#">Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
                     </div>
                 </div>
@@ -107,11 +125,17 @@ const Projects = () => {
                         <p>With a focus on simplicity and clean design, this store prioritize user experience, making it easy for customers to find and purchase the products they need.</p>
                     </div>
                     
-                    <div className="tags">
-                        <h2>React</h2>
+                    <div className="tags-container">
+                        <div className="tags">
+                            <h2>React</h2>
+                        </div>
+                        <div className="tags">
+                            <h2>Vanilla CSS</h2>
+                        </div>
                     </div>
+
                     <div className="links">
-                        <a href="#">Code<FontAwesomeIcon icon={faGithub} className="icons"/></a>
+                        <a href="https://github.com/MrSkrubElite/Minimalist-E-shop" target="_blank" >Code<FontAwesomeIcon icon={faGithub} className="icons"/></a>
                         <a href="#">Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
                     </div>
                 </div>
