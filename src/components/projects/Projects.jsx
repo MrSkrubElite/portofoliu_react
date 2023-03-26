@@ -49,7 +49,7 @@ const Projects = () => {
                     
                     <div className="links">
                         <a href="https://github.com/MrSkrubElite/Car-Rental-Project" target="_blank">Code<FontAwesomeIcon icon={faGithub} className="icons"/></a>
-                        <a href="#">Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
+                        <a href="https://car-rental-ten.vercel.app/" target="_blank">Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
                     </div>
                 </div>
             </div>
@@ -78,7 +78,7 @@ const Projects = () => {
 
                     <div className="links">
                         <a href="https://github.com/MrSkrubElite/CoinGod" target="_blank">Code<FontAwesomeIcon icon={faGithub} className="icons"/></a>
-                        <a href="#">Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
+                        <a href="https://coindom-crypto-search.vercel.app/" target="_blank">Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
                     </div>
                 </div>
             </div>
@@ -107,7 +107,7 @@ const Projects = () => {
 
                     <div className="links">
                         <a href="https://github.com/MrSkrubElite/GymBro" target="_blank">Code<FontAwesomeIcon icon={faGithub} className="icons"/></a>
-                        <a href="#">Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
+                        <a href="https://gymate-iota.vercel.app/" target="_blank">Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
                     </div>
                 </div>
             </div>
@@ -136,7 +136,7 @@ const Projects = () => {
 
                     <div className="links">
                         <a href="https://github.com/MrSkrubElite/Minimalist-E-shop" target="_blank" >Code<FontAwesomeIcon icon={faGithub} className="icons"/></a>
-                        <a href="#">Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
+                        <a href="https://minimalist-e-commerce.vercel.app/" target="_blank">Live Demo<FontAwesomeIcon icon={faArrowUpRightFromSquare} className="icons"/></a>
                     </div>
                 </div>
             </div>
