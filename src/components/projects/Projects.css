@@ -201,7 +201,7 @@
         border-radius: 20px;
         margin: 1rem 0;
         z-index: 3;
-        padding: 0.4rem;
+        padding: 0;
     }
 
     .project-img img {
@@ -218,5 +218,13 @@
         text-align: center;
         margin: 1rem;
         padding: 1rem;
+    }
+
+    .project-info .links a {
+        font-size: 20px;
+    }
+
+    .tags-container {
+        padding: 1rem 0;
     }
 }
